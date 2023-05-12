@@ -13,6 +13,7 @@ padding: 0%;
 .logoDeLaBoite{
     position: absolute;
     width: 90px;
+    opacity:0.5;
 }
 #loupe{
     width: 20px;
@@ -20,8 +21,57 @@ padding: 0%;
 }
 .boutonDuHaut{
    
-    position:relative; 
-    left: 78%;
-    display: inline;
-    width: 10vw;
+    position:relative;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 40vw;
+    background-color: rgba(74, 69, 69, 0.336);
+    
+    
 }
+@keyframes anim {
+    from{opacity:0.3;}
+    to{opacity: 1;}
+   
+  }
+  
+
+.boutonDuHaut span:hover {
+   
+   width:80px;
+   cursor: pointer;
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    
+  }
+@font-face {
+    font-family:police;
+    src: url(\Font\Gimme Danger.ttf);
+}
+
+  h1{
+    /* background-color: blue; */
+    font-size: 700%;
+    font-family:"police";
+    position: absolute;
+    top : 40%;
+    left : 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  }
+  h3{
+    position: absolute;
+    top : 40%;
+    left : 50%;
+    transform: translateX(-50%);
+    font-size: 130%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+
