@@ -1,0 +1,27 @@
+*{margin: 0%;
+padding: 0%;
+}
+
+
+#app{
+    background-image: url("/Image/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logoDeLaBoite{
+    position: absolute;
+    width: 90px;
+}
+#loupe{
+    width: 20px;
+    margin-top: 3px;
+}
+.boutonDuHaut{
+   
+    position:relative; 
+    left: 78%;
+    display: inline;
+    width: 10vw;
+}
