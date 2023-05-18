@@ -125,7 +125,7 @@ padding: 0%;
 }
 
 .social img{
-  width : 30px;
+  width : 3vw;
 }
 
 .social img:hover{
@@ -246,46 +246,42 @@ plutot que de te repeter ===> */
 /* Modifications , tu applique le même style a opaqueBox1 et 2 donc fait plutot comme ca : */
 
 .opaqueBox div{
-  height: 100%;
-  width: 48%;
+  height: 10vw;
+  width: 17vw;
   backdrop-filter: blur(10px);
-  /* background-color: aqua; */
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding:2vw;
 }
 
 .opaqueBox1 span{
   background-color: aquamarine;
-  display: flex;
-  flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height:40%;
-  width:35%;
+  width:40%;
   color: white;
-  
-  
-
+  /* justify-content: center; */
+  /* text-align: center; */
+  display: flex;
 }
 
 .opaqueBox2 span{
   background-color: rgb(4, 0, 255);
-  display: flex;
-  flex-direction: column;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height:40%;
   width:35%;
   color: white;
-
- 
-  
-
-
+  display: flex;
+  /* text-align: center; */
+  /* justify-content: center; */
 } 
 
-.opaqueBox1 :nth-child(1){
+.opaqueBox div :nth-child(1){
   font-family:police;
   font-size:2em;
+  display: flex;
+  align-items:
 }
 
-.opaqueBox2 :nth-child(1){
-  font-family:police;
-  font-size:2em;
-}
