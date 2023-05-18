@@ -109,7 +109,7 @@ padding: 0%;
   /* background-color: rgb(132, 0, 255); */
   position: absolute;
   
-  bottom:1%;
+  bottom:4%;
   width:50%;
   height:30%;
 
@@ -176,8 +176,8 @@ color: white;
  /* background-color: #f0f; */
  height:30%;
  width: 50%;
- bottom:1%;
- right:1%;
+ bottom:4%;
+ right:2%;
  position: absolute;
 }
 
@@ -185,7 +185,7 @@ color: white;
   position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: #0ff;
+  /* background-color: #0ff; */
   /* width:50px; */
   /* height:300px; */
   justify-content: space-evenly;
@@ -241,21 +241,7 @@ plutot que de te repeter ===> */
   justify-content: space-between;
 }
 
-/* .opaqueBox1{
-  background-color: rgb(74, 255, 3);
-  width: 300px;
-  height: 200px;
-  border: 2px solid black;
 
-}
-
-.opaqueBox2{
-  background-color: rgb(4, 0, 255);
-  width: 300px;
-  height: 200px;
-  border: 2px solid black;
-
-} */
 
 /* Modifications , tu applique le même style a opaqueBox1 et 2 donc fait plutot comme ca : */
 
@@ -263,4 +249,43 @@ plutot que de te repeter ===> */
   height: 100%;
   width: 48%;
   backdrop-filter: blur(10px);
+  /* background-color: aqua; */
+}
+
+.opaqueBox1 span{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height:40%;
+  width:35%;
+  color: white;
+  
+  
+
+}
+
+.opaqueBox2 span{
+  background-color: rgb(4, 0, 255);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height:40%;
+  width:35%;
+  color: white;
+
+ 
+  
+
+
+} 
+
+.opaqueBox1 :nth-child(1){
+  font-family:police;
+  font-size:2em;
+}
+
+.opaqueBox2 :nth-child(1){
+  font-family:police;
+  font-size:2em;
 }
