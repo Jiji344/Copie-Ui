@@ -249,7 +249,7 @@ plutot que de te repeter ===> */
   height: 10vw;
   width: 17vw;
   backdrop-filter: blur(10px);
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -257,7 +257,7 @@ plutot que de te repeter ===> */
 }
 
 .opaqueBox1 span{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   /* border: 2px solid black; */
   height:40%;
   width:40%;
@@ -268,7 +268,7 @@ plutot que de te repeter ===> */
 }
 
 .opaqueBox2 span{
-  background-color: rgb(4, 0, 255);
+  /* background-color: rgb(4, 0, 255); */
   /* border: 2px solid black; */
   height:40%;
   width:35%;
