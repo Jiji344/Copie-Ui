@@ -213,22 +213,47 @@ color: white;
 /* Modifications : Tu applique le même style a tes images fleches , fait plutot comme ca
 plutot que de te repeter ===> */
 
-.boutonFleche img{
-  width:50px; 
-  border:2px solid #ffffff;
-  border-radius:100%;
-  border-width:4px ;
-}
 
 /* nouvelle version des fleches */
 
-.flecheDroite{
-  border-bottom:4px white solid;
-  border-right:4px white solid;
-  height:20%;
-  width: 100%;
+.borderD{
+border: 2px white solid;
+border-radius:100%;
+height:27%;
+width:100%;
+align-items: center;
+justify-content: center;
+display: flex;
+
 }
 
+.flecheDroite{
+  margin-right:10px;
+  width:25%;
+  height:25%;
+  border-bottom: 4px solid rgb(255, 255, 255) ;
+  border-left: 4px solid rgb(255, 255, 255);
+  transform: rotate(225deg);
+}
+.borderG{
+  border: 2px white solid;
+  border-radius:100%;
+  height:27%;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  }
+  
+  .flecheGauche{
+    margin-left:10px;
+    width:25%;
+    height:25%;
+    border-bottom: 4px solid rgb(255, 255, 255) ;
+    border-left: 4px solid rgb(255, 255, 255);
+    transform: rotate(45deg);
+  }
 
 
 .opaqueBox{
