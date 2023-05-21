@@ -185,7 +185,7 @@ color: white;
   position: absolute;
   display: flex;
   flex-direction: column;
-  
+ 
 
   justify-content: space-evenly;
 
@@ -216,6 +216,22 @@ plutot que de te repeter ===> */
 
 /* nouvelle version des fleches */
 
+.borderD :hover {
+   
+  cursor: pointer;
+   animation-name: anim;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+ }
+
+ .borderG :hover {
+   
+  cursor: pointer;
+   animation-name: anim;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+ }
+
 .borderD{
 border: 2px white solid;
 border-radius:100%;
@@ -224,6 +240,7 @@ width:100%;
 align-items: center;
 justify-content: center;
 display: flex;
+
 
 }
 
@@ -234,6 +251,7 @@ display: flex;
   border-bottom: 4px solid rgb(255, 255, 255) ;
   border-left: 4px solid rgb(255, 255, 255);
   transform: rotate(225deg);
+ 
 }
 .borderG{
   border: 2px white solid;
