@@ -13,8 +13,9 @@ padding: 0%;
  
 .logoDeLaBoite{
     position: absolute;
-    height: 9.9vh;
+    height: 11vh;
     opacity:1;
+    
 }
 #loupe{
     width: 20px;
@@ -235,8 +236,8 @@ plutot que de te repeter ===> */
 .borderD{
 border: 2px white solid;
 border-radius:100%;
-height:27%;
-width:100%;
+height:5vw;
+width:5vw;
 align-items: center;
 justify-content: center;
 display: flex;
@@ -245,9 +246,9 @@ display: flex;
 }
 
 .flecheDroite{
-  margin-right:10px;
-  width:25%;
-  height:25%;
+  margin-right:0.7vw;
+  width:1.5vw;
+  height:1.5vw;
   border-bottom: 4px solid rgb(255, 255, 255) ;
   border-left: 4px solid rgb(255, 255, 255);
   transform: rotate(225deg);
@@ -256,8 +257,8 @@ display: flex;
 .borderG{
   border: 2px white solid;
   border-radius:100%;
-  height:27%;
-  width:100%;
+  height:5vw;
+  width:5vw;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -265,9 +266,9 @@ display: flex;
   }
   
   .flecheGauche{
-    margin-left:10px;
-    width:25%;
-    height:25%;
+    margin-left:0.7vw;
+    width:1.5vw;
+    height:1.5vw;
     border-bottom: 4px solid rgb(255, 255, 255) ;
     border-left: 4px solid rgb(255, 255, 255);
     transform: rotate(45deg);
