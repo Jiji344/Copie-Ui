@@ -2,12 +2,14 @@
 padding: 0%;
 }
 
-
 #app{
     background-image: url("/Image/sunrise_in_vietnam-wallpaper-3840x2160.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    background-position:center
+    
+    
     
 }
  
@@ -109,24 +111,27 @@ padding: 0%;
 .firstBottomBox{
   /* background-color: rgb(132, 0, 255); */
   position: absolute;
-  
-  bottom:4%;
-  width:50%;
-  height:30%;
+  display: flex;
+  bottom:0.5vw;
+  width:50vw;
+  height:30vh;
 
  
 }
 .social{
+  /* position: absolute; */
   width: 15%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly; 
+  /* background-color: green; */
 }
 
 .social img{
   width : 3vw;
+  /* background-color: yellow; */
 }
 
 .social img:hover{
@@ -150,23 +155,23 @@ padding: 0%;
 
 .counter{
 font-size: 2em;
-display: flex;
-position: absolute;
-align-items: center;
-justify-content: space-evenly;
-top: 10%;
-right: 60%;
 /* background-color: #0ff; */
-flex-direction: column;
 color: white;
-
+display: flex;
+flex-direction: column;
+margin-left: 10vw;
+margin-bottom: 2vw;
 }
+
 @font-face {
   font-family:chiffre;
   src: url('/Font/Montez-Regular.ttf');
 }
+
+
 .counter span:nth-child(1){
   font-family:chiffre;
+
 }
 .counter span:nth-child(2){
   font-family:bouton;
@@ -175,11 +180,12 @@ color: white;
 
 .secondBottomBox{
  /* background-color: #f0f; */
- height:30%;
- width: 50%;
- bottom:4%;
- right:2%;
+ bottom:0.5vw;
+ width:50vw;
+ height:30vh;
+ right:2vw;
  position: absolute;
+ /* display: flex; */
 }
 
 .boutonFleche{
@@ -286,7 +292,7 @@ display: flex;
   /* width: 55vw; */
 
   /* Modifications  */
-  height: 100%;
+  height: 90%;
   width: 45vw;
   right: 0;
   justify-content: space-between;
@@ -297,7 +303,7 @@ display: flex;
 /* Modifications , tu applique le même style a opaqueBox1 et 2 donc fait plutot comme ca : */
 
 .opaqueBox div{
-  height: 10vw;
+  height: 80%;
   width: 17vw;
   backdrop-filter: blur(10px);
   /* background-color: aqua; */
@@ -307,22 +313,27 @@ display: flex;
   padding:2vw;
 }
 
+.opaqueBox1{
+margin-left:1vw;
+}
+
 .opaqueBox1 span{
   /* background-color: aquamarine; */
   /* border: 2px solid black; */
-  height:40%;
-  width:40%;
+  height:40vw;
+  width:17vw;
   color: white;
   /* justify-content: center; */
   /* text-align: center; */
   display: flex;
+
 }
 
 .opaqueBox2 span{
   /* background-color: rgb(4, 0, 255); */
   /* border: 2px solid black; */
-  height:40%;
-  width:35%;
+  height:40vw;
+  width:17vw;
   color: white;
   display: flex;
   /* text-align: center; */
@@ -333,6 +344,53 @@ display: flex;
   font-family:police;
   font-size:2em;
   display: flex;
-  align-items:
 }
 
+@media screen and (max-width: 913px) {
+#app{
+  margin: auto;
+  font-size:0.5em;
+}
+
+.counter{
+
+  margin-left:10%;
+
+}
+
+.social img{
+  scale:250%;
+  
+  
+}
+
+.boutonFleche {
+ width:15vw;
+ 
+  left:-20%;
+
+}
+
+.borderD{
+  scale:200%;
+}
+
+.borderG{
+  scale:200%
+}
+
+.opaqueBox div{
+  height:100%;
+}
+.boutonDuHaut span{
+font-size:1.8em;
+
+}
+.boutonDuHaut {
+  width:80%;
+  /* background-color: #0ff; */
+  transform: translateX(-50%);
+  
+}
+
+}
