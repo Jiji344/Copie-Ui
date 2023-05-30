@@ -7,30 +7,28 @@ padding: 0%;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    background-position:center
-    
-    
-    
+    background-position:center  
 }
  
 .logoDeLaBoite{
     position: absolute;
     height: 11vh;
-    opacity:1;
-    
+    opacity:1;  
 }
+
 #loupe{
     width: 20px;
-    margin-top: 3px;
-    
+    margin-top: 3px;    
 }
+
 @font-face{
     font-family:bouton;
     src: url('/Font/WixMadeforDisplay-VariableFont_wght.ttf')
 }
+
 .boutonDuHaut{
-  font-family:"bouton";
-  height: 10vh;
+    font-family:"bouton";
+    height: 10vh;
     position:relative;
     left: 60%;
     display: flex;
@@ -38,32 +36,28 @@ padding: 0%;
     justify-content:space-evenly;
     width: 40vw;
     background-color: rgba(74, 69, 69, 0);
-    color: white;
-    
-   
+    color: white   
 }
+
 @keyframes anim {
     from{opacity:0.3;}
     to{opacity: 1;}
-   
-  }
+}
   
 
 .boutonDuHaut span:hover {
-   
-   cursor: pointer;
+    cursor: pointer;
     animation-name: anim;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-  }
+}
 
 @font-face {
     font-family:police;
     src: url('/Font/EBGaramond-VariableFont_wght.ttf');
 }
+
   .vietnam{
-    /* background-color: #f0f; */
-    /* font-size: 600%; Ne pas utiliser*/ 
     font-size: 5em;
     font-family: police;
     position: absolute;
@@ -80,9 +74,6 @@ padding: 0%;
   }
 
   .vietnam span{
-    /* background-color: #0ff; */
-    /* width: 10%; Les boites font la taille des lettres donc elle se rééquilibre
-    height: 50%; */
     transition: .1s ease-in;
     display: flex;
     justify-content: center;
@@ -103,40 +94,36 @@ padding: 0%;
     font-size: 130%;
     font-family:police;
   }
+
   .grandeBoiteDuHaut{
     border-bottom: 1px solid white;
     height: 10vh;
   }
   
 .firstBottomBox{
-  /* background-color: rgb(132, 0, 255); */
   position: absolute;
   display: flex;
   bottom:0.5vw;
   width:50vw;
   height:30vh;
-
- 
 }
+
 .social{
-  /* position: absolute; */
+  margin-left:3%;
   width: 15%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly; 
-  /* background-color: green; */
 }
 
 .social img{
   width : 3vw;
-  /* background-color: yellow; */
 }
 
 .social img:hover{
   cursor: pointer;
-  
   border-radius: 50%;
   box-shadow:
     inset 0 0 50px #000000,      /* inner white */
@@ -147,15 +134,10 @@ padding: 0%;
     0 0 50px #000000,            /* outer white */
     -10px 0 80px #f0f,        /* outer left magenta */
     10px 0 80px #0ff;         /* outer right cyan */
-  
-
- 
-
 }
 
 .counter{
 font-size: 2em;
-/* background-color: #0ff; */
 color: white;
 display: flex;
 flex-direction: column;
@@ -168,64 +150,37 @@ margin-bottom: 2vw;
   src: url('/Font/Montez-Regular.ttf');
 }
 
-
 .counter span:nth-child(1){
   font-family:chiffre;
-
 }
+
 .counter span:nth-child(2){
   font-family:bouton;
   font-size:91%;
 }
 
 .secondBottomBox{
- /* background-color: #f0f; */
  bottom:0.5vw;
  width:50vw;
  height:30vh;
  right:2vw;
  position: absolute;
- /* display: flex; */
 }
 
 .boutonFleche{
   position: absolute;
   display: flex;
   flex-direction: column;
- 
-
   justify-content: space-evenly;
-
-  /* Modifications  */
-
   height: 100%;
   width: 8%;
   align-items: center;
 }
 
-/* #flechesDroite{
-  width:50px;
-  border:2px solid #ffffff;
-  border-radius:100%;
-  border-width:4px; 
-}
-
-#flechesGauche{
-  width:50px; 
-  border:2px solid #ffffff;
-  border-radius:100%;
-  border-width:4px ;
-} */
-
-/* Modifications : Tu applique le même style a tes images fleches , fait plutot comme ca
-plutot que de te repeter ===> */
-
-
-/* nouvelle version des fleches */
 
 .borderD :hover {
    
-  cursor: pointer;
+   cursor: pointer;
    animation-name: anim;
    animation-duration: 1s;
    animation-timing-function: ease-in-out;
@@ -233,22 +188,20 @@ plutot que de te repeter ===> */
 
  .borderG :hover {
    
-  cursor: pointer;
+   cursor: pointer;
    animation-name: anim;
    animation-duration: 1s;
    animation-timing-function: ease-in-out;
  }
 
 .borderD{
-border: 2px white solid;
-border-radius:100%;
-height:5vw;
-width:5vw;
-align-items: center;
-justify-content: center;
-display: flex;
-
-
+  border: 2px white solid;
+  border-radius:100%;
+  height:5vw;
+  width:5vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .flecheDroite{
@@ -258,8 +211,8 @@ display: flex;
   border-bottom: 4px solid rgb(255, 255, 255) ;
   border-left: 4px solid rgb(255, 255, 255);
   transform: rotate(225deg);
- 
 }
+
 .borderG{
   border: 2px white solid;
   border-radius:100%;
@@ -278,35 +231,22 @@ display: flex;
     border-bottom: 4px solid rgb(255, 255, 255) ;
     border-left: 4px solid rgb(255, 255, 255);
     transform: rotate(45deg);
-  }
+}
 
 
 .opaqueBox{
-  /* background-color: yellow; */
-  /* justify-content:space-evenly; */
-  /* align-content:space-between; */
   position: absolute;
   display: flex;
-  /* flex-direction: row; ---> Comportement par défaut donc pas besoin de mettre */
-  /* height:30vh; */
-  /* width: 55vw; */
-
-  /* Modifications  */
-  height: 90%;
+  height: 80%;
   width: 45vw;
   right: 0;
   justify-content: space-between;
 }
 
-
-
-/* Modifications , tu applique le même style a opaqueBox1 et 2 donc fait plutot comme ca : */
-
 .opaqueBox div{
   height: 80%;
   width: 17vw;
   backdrop-filter: blur(10px);
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -318,26 +258,18 @@ margin-left:1vw;
 }
 
 .opaqueBox1 span{
-  /* background-color: aquamarine; */
-  /* border: 2px solid black; */
   height:40vw;
   width:17vw;
   color: white;
-  /* justify-content: center; */
-  /* text-align: center; */
   display: flex;
 
 }
 
 .opaqueBox2 span{
-  /* background-color: rgb(4, 0, 255); */
-  /* border: 2px solid black; */
   height:40vw;
   width:17vw;
   color: white;
   display: flex;
-  /* text-align: center; */
-  /* justify-content: center; */
 } 
 
 .opaqueBox div :nth-child(1){
@@ -347,50 +279,165 @@ margin-left:1vw;
 }
 
 @media screen and (max-width: 913px) {
-#app{
-  margin: auto;
-  font-size:0.5em;
+        #app{
+          margin: auto;
+          font-size:0.5em;
+        }
+
+        .counter{
+          margin-left:10%;
+        }
+
+        .social img{
+          scale:300%;       
+        }
+
+        .boutonFleche {
+          width:18vw;
+          left:-20%;
+        }
+
+        .borderD{
+          scale:200%;
+        }
+
+        .borderG{
+          scale:200%
+        }
+
+        h3{
+          margin-left:4%;
+          margin-top: 10vh;
+          scale:200%;
+        }
+
+        .opaqueBox div{
+          height:100%;         
+        }
+
+        .boutonDuHaut span{
+        font-size:1.8em;
+        }
+
+        .boutonDuHaut {
+          width:80%;
+          transform: translateX(-50%); 
+        }
+
+        .opaqueBox2 span{
+          margin-bottom:20%;
+        }
+
+        .opaqueBox span{
+          margin-bottom:20%;
+          justify-content: center;
+          width:33vw;
+        }
+
+        .opaqueBox {
+          position: relative;
+          bottom:90%;
+          right:230%;
+          width: 334%;
+          justify-content: space-evenly;        
+        }
+
+        .secondBottomBox{
+          width:30VW;
+        }
+
+        .opaqueBox div{
+          align-items: center;
+          display: flex;
+          height:70%;
+          width:35%;
+        }
+
+        .social{
+          margin-left:25%;
+        }
+
+        .counter{
+          position: relative;
+          top:40%;
+          left:10%;
+          height: 50%;
+        }
+
+        .boutonFleche{
+          left:0%;
+        }
+
 }
 
-.counter{
 
-  margin-left:10%;
+@media screen and (max-width: 281px) {
 
+  .boutonDuHaut span{
+    font-size:1.3em;}
+  
 }
 
-.social img{
-  scale:250%;
+@media screen and (min-width: 400px ) {
+  
+  .boutonFleche div{
+    scale:110%;
+  }
+}
+@media screen and (min-width: 500px ) {
+  
+  .boutonFleche div{
+    scale:110%;
+  }
   
   
+
+  .social img{
+    scale:260%;
+  }
+
+  .opaqueBox span{
+    position: relative;
+    top:5vh;
+
+  }
+
 }
 
-.boutonFleche {
- width:15vw;
+
+
  
-  left:-20%;
+@media screen and (min-width: 600px ) {
+  
+  .boutonFleche div{
+    scale:110%;
+  }
 
-}
+  .social img{
+    scale:230%;
+  }
 
-.borderD{
-  scale:200%;
-}
-
-.borderG{
-  scale:200%
-}
-
-.opaqueBox div{
-  height:100%;
-}
-.boutonDuHaut span{
-font-size:1.8em;
-
-}
-.boutonDuHaut {
-  width:80%;
-  /* background-color: #0ff; */
-  transform: translateX(-50%);
   
 }
 
+@media screen and (min-width: 700px ) {
+  
+  .boutonFleche div{
+    scale:110%;
+  }
+
+  .social img{
+    scale:150%;
+  }
+
+
+  .opaqueBox span{
+    background-color: rgb(75, 30, 75);
+    position: relative;
+    top:5vh;
+
+  }
+
+ 
 }
+
